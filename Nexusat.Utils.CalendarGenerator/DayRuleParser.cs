@@ -7,14 +7,7 @@ namespace Nexusat.Utils.CalendarGenerator
 {
     public static class DayRuleParser
     {
-        private static Regex ParseRegex { get; } = new Regex(@"^\s*
-(?<year>\S+)\s+
-(?<month>\S+)\s+
-(?<dayOfMonth>\S+)\s+
-(?<dayOfWeek>\S+)\s*
-(\s+(\[\[(?<description>.*)\]\])?\s*
-(?<timePeriods>(\d{2}:\d{2}-\d{2}:\d{2})?(,\d{2}:\d{2}-\d{2}:\d{2})*))?\s*
-(?<comments>#.*)?$".Replace(Environment.NewLine, ""));
+        private static Regex ParseRegex { get; } = new Regex(@"^\s*(?<year>\S+)\s+(?<month>\S+)\s+(?<dayOfMonth>\S+)\s+(?<dayOfWeek>\S+)\s*(\s+(\[\[(?<description>.*)\]\])?\s*(?<timePeriods>(\d{2}:\d{2}-\d{2}:\d{2})?(,\d{2}:\d{2}-\d{2}:\d{2})*))?\s*(?<comments>#.*)?$");
 
         /// <summary>
         ///     Parse a day rule expression
