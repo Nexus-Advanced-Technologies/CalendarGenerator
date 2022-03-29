@@ -1,12 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	  <LangVersion>9.0</LangVersion>
     <Title>.NET Calendar Generator Library</Title>
     <Authors>Giovanni Costagliola</Authors>
-    <Description>Util library to generate perpetual calendar based on rules</Description>
+    <Description>Utility library to generate perpetual calendar based on rules</Description>
     <Copyright>MIT</Copyright>
-    <LangVersion>default</LangVersion>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Nexusat.Utilis.CalendarGenerator.snk</AssemblyOriginatorKeyFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/Nexus-Advanced-Technologies/CalendarGenerator</RepositoryUrl>
+    <PackageTags>.NET Calendar Utility CRON</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
