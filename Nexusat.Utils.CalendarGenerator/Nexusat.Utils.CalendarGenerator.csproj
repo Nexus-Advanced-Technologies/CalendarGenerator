@@ -9,6 +9,9 @@
     <Copyright>MIT</Copyright>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Nexusat.Utilis.CalendarGenerator.snk</AssemblyOriginatorKeyFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/Nexus-Advanced-Technologies/CalendarGenerator</RepositoryUrl>
+    <PackageTags>.NET Calendar Utility CRON</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
