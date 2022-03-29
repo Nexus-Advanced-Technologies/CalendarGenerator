@@ -5,7 +5,7 @@
 	  <LangVersion>9.0</LangVersion>
     <Title>.NET Calendar Generator Library</Title>
     <Authors>Giovanni Costagliola</Authors>
-    <Description>Util library to generate perpetual calendar based on rules</Description>
+    <Description>Utility library to generate perpetual calendar based on rules</Description>
     <Copyright>MIT</Copyright>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Nexusat.Utilis.CalendarGenerator.snk</AssemblyOriginatorKeyFile>
